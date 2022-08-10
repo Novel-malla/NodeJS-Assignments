@@ -1,0 +1,1 @@
+With Node. js, you can programmatically manipulate files with the built-in fs module. The name is short for “file system,” and the module contains all the functions you need to read, write, and delete files on the local machine.
