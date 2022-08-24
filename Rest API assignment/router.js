@@ -9,8 +9,8 @@ router.use(bodyparser.json());
 
 router.get('/', (req, res) => {
     inventory.find({})
-    .then((fruits) => {
-        res.send(fruits);
+    .then((foods) => {
+        res.send(foods);
     }).catch((err) => {
         console.log(err.message);
     })
